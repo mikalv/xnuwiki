@@ -18,6 +18,9 @@ You'll lose all your data, your macbook or hacktoch explodes and almost kills yo
 
 A replacement system for the old BIOS. If I don't remember wrong, the EFI implementation is at least twice as big as the XNU codebase. ...A lot happens here beyond our eyes.
 
+[Here](https://github.com/tianocore/edk2) you'll find EDK 2, which is an open implementation of EFI. You can for example use the Ovmf package as a custom BIOS for your QEMU or VirtualBox installation.
+
+
 ## KEXTs
 
 These are Mach-o formatted files containing dynamically loadable kernel modules.
