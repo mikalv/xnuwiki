@@ -15,6 +15,6 @@
 ## Development Guides
 
 * [Debugging the Mac OS X kernel with VMware and GDB](http://ho.ax/posts/2012/02/debugging-the-mac-os-x-kernel-with-vmware-and-gdb/)
-
+* [Debugging macOS Kernel using VirtualBox](https://klue.github.io/blog/2017/04/macos_kernel_debugging_vbox/)
 
 

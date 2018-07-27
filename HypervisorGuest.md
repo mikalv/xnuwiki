@@ -1,7 +1,7 @@
 # Run XNU w/Darwin as a Hypervisor Guest
 
 
-## Known "reported to work" emulators/hypervizors.
+## Known "reported to work" emulators/hypervisors.
 
 * VMWare
 * VirtualBox
@@ -10,6 +10,8 @@
 
 
 ## Guides
+
+### Virtualbox
 
 ### VMware
 

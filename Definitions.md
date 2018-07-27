@@ -23,7 +23,7 @@ A replacement system for the old BIOS. If I don't remember wrong, the EFI implem
 
 ## KEXTs
 
-These are Mach-o formatted files containing dynamically loadable kernel modules.
+XNU provides a kernel extension mechanism as a means of allowing dynamic loading of pieces of code into kernel space, without the need to recompile. These pieces of code are known generically as plug-ins or, in the OS X kernel environment, as kernel extensions or KEXTs. Because KEXTs provide both modularity and dynamic loadability, they are a natural choice for any relatively self-contained service that requires access to interfaces that are not exported to user space. Many of the components of the kernel environment support this extension mechanism, though they do so in different ways.
 
 ## DSDT/SSDTs
 
