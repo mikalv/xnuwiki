@@ -15,5 +15,6 @@ XNU is a hybrid kernel combining the Mach kernel developed at Carnegie Mellon Un
 * [Build Instructions](BuildInstructions.md)
 * [Directory structure overview](DirectoryStructure.md)
 * [Drivers (KEXT's)](Drivers.md)
+* [Links to external resources](Links.md)
 
 
