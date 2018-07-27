@@ -21,20 +21,26 @@
   * `makedefs` - top level rules and defines for kernel build.
   * `osfmk` - Mach kernel based subsystems
     * `arm` - Architecture spesific code.
+    * `chud` - The Computer Hardware Understanding Development tools.  
     * `conf` - BSD alike conf directory for the mach subsystems of the kernel.
-    * `console` - The serial console implementation.
+    * `console` - The serial console implementation and panic UI.
     * `corecrypto` - Some more cryptographical functions.
+    * `default_pager` - VM Pager.
     * `i386` - Architecture spesific code.
-    * `ipc` - The code for the IPC.
+    * `device` - Mach support for I/O Kit and devices.
+    * `ipc` - The code for the Interprocess Communication (IPC) system.
+    * `kdp` - KDP (Debugger) support.
     * `kern` - Inner Mach code (scheduler, ipc, threading, timers, clock).
     * `libsa` - Mach headers related to startup.
     * `man` - HTML manuals.
     * `prng` - A random number generation implementation.
+    * `UserNotification` - Kernel-User Notification (KUNC). 
     * `vm` - Mach virtual memory code.
     * `x86_64` - Architecture spesific code.
   * `pexpert` - Platform specific code like interrupt handling, atomics etc.
   * `security` - Mandatory Access Check policy interfaces and related implementation.
   * `bsd` - BSD subsystems code
+    * `bsm` - Basic Security Module (auditing subsystem).
     * `arm` - Architecture spesific code.
     * `conf` - BSD alike conf directory for the bsd subsystems of the kernel.
     * `i386` - Architecture spesific code.
