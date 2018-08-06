@@ -14,6 +14,9 @@ XNU is a hybrid kernel combining the Mach kernel developed at Carnegie Mellon Un
 * [Start here: Definitions and explainations](Definitions.md)
 * [Build Instructions](BuildInstructions.md)
 * [Run XNU as a virtual machine guest](HypervisorGuest.md)
+* [Introduction to the boot sequence](BootstrapSequencesExplained.md)
+* [The Mach-O Format](Mach-O.md)
+* [Mach-O and BSD](Mach_and_BSD.md)
 
 ### Theory
 
